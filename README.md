@@ -23,8 +23,15 @@
  'min_samples_leaf': 3,
  'min_samples_split': 8,
  'n_estimators': 200}**
-
 - [Random Forest model](model_RandomForest.sav)
+- When the top four important features are selected, test score is 0.868 for best parameters below <br>
+**{'bootstrap': True,
+ 'max_depth': 80,
+ 'max_features': 3,
+ 'min_samples_leaf': 3,
+ 'min_samples_split': 12,
+ 'n_estimators': 200}**<br>
+[Random Forest model with four features](model_RandomForest_FeatureSelection.ipynb)
 ## Deep learning also works fine.
 - [Deep Learning model](model_DeepLearning.h5)
 
